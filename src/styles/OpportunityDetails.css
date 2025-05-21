@@ -1,0 +1,55 @@
+.opportunity-details .MuiDialog-paper {
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.opportunity-details .MuiDialogTitle-root {
+    padding: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+
+.opportunity-details .MuiDialogContent-root {
+    padding: 24px;
+}
+
+.opportunity-details .MuiDialogActions-root {
+    padding: 16px 24px;
+    border-top: 1px solid #eee;
+}
+
+.opportunity-details .MuiTypography-subtitle1 {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.opportunity-details .MuiDivider-root {
+    margin: 16px 0;
+}
+
+.opportunity-details .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.opportunity-details .MuiChip-root {
+    font-size: 0.8rem;
+}
+
+.opportunity-details .info-box {
+    display: flex;
+    margin-top: 16px;
+}
+
+.opportunity-details .info-box > div {
+    margin-right: 32px;
+}
+
+.opportunity-details .info-box .MuiTypography-subtitle2 {
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 4px;
+}
