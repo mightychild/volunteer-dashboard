@@ -1,0 +1,34 @@
+.add-opportunity-form .MuiDialog-paper {
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.add-opportunity-form .MuiDialogTitle-root {
+    padding: 16px 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+
+.add-opportunity-form .MuiDialogContent-root {
+    padding: 16px 24px;
+}
+
+.add-opportunity-form .MuiDialogActions-root {
+    padding: 16px 24px;
+    border-top: 1px solid #eee;
+}
+
+.add-opportunity-form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.add-opportunity-form .MuiButton-contained {
+    text-transform: none;
+    font-weight: 500;
+    padding: 8px 24px;
+}
+
+.add-opportunity-form .MuiButton-outlined {
+    text-transform: none;
+    margin-right: 8px;
+}
