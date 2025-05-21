@@ -1,0 +1,27 @@
+.category-filter {
+    min-width: 180px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.category-filter .MuiOutlinedInput-root {
+    border-radius: 4px;
+}
+
+.category-filter .MuiInputLabel-root {
+    transform: translate(14px, 14px) scale(1);
+}
+
+.category-filter .MuiInputLabel-root.Mui-focused {
+    transform: translate(14px, -9px) scale(0.75);
+}
+
+.category-filter .MuiInputLabel-shrink {
+    transform: translate(14px, -9px) scale(0.75);
+}
+
+@media (max-width: 600px) {
+    .category-filter {
+        width: 100%;
+    }
+}
