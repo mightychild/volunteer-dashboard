@@ -7,8 +7,7 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border-left: 5px solid #FF6B81; /* Coral accent */
-}
+  border-left: 5px solid #FF6B81; 
 
 .opportunity-card:hover {
   transform: translateY(-5px);
@@ -25,7 +24,7 @@
 .opportunity-card .MuiTypography-h5 {
   font-weight: 600;
   margin-bottom: 8px;
-  color: #2E4053; /* Dark blue-gray for text */
+  color: #2E4053; 
 }
 
 .opportunity-card .MuiTypography-body2 {
@@ -36,7 +35,7 @@
 .opportunity-card .MuiChip-root {
   font-size: 0.7rem;
   height: 24px;
-  background-color: #2ED573; /* Emerald green */
+  background-color: #2ED573;
   color: white;
   font-weight: 500;
 }
