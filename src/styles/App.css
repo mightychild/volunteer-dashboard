@@ -1,34 +1,54 @@
+body {
+  margin: 0;
+  background-color: #FFF9F0; /* Soft peach background */
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .app-container {
-  padding: 20px;
+  padding: 24px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #FFF9F0, #FFE8E8);
 }
 
-.opportunity-card {
-  height: 100%;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-}
-
-.opportunity-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.search-bar {
-  width: 300px;
-}
-
-.category-filter {
-  min-width: 150px;
-}
-
-/* Add responsive styles */
 @media (max-width: 600px) {
-  .search-bar {
-    width: 100%;
-    margin-bottom: 10px;
+  .app-container {
+    padding: 16px;
   }
-  
-  .category-filter {
-    width: 100%;
-  }
+}
+
+/* Header styles */
+.MuiTypography-h1 {
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #FF6B81; /* Coral */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.MuiButton-contained {
+  background: linear-gradient(45deg, #FF6B81 0%, #FF8C00 100%);
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  text-transform: none;
+  box-shadow: 0 4px 8px rgba(255, 107, 129, 0.3);
+  transition: all 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(45deg, #FF8C00 0%, #FF6B81 100%);
+  box-shadow: 0 6px 12px rgba(255, 107, 129, 0.4);
+}
+
+/* Loading spinner */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.loading-container .MuiCircularProgress-root {
+  color: #FF6B81;
 }
