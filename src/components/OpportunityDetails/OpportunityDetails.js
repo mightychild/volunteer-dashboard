@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Typography, Chip, Box, Divider } from '@mui/material';
-import './OpportunityDetails.css';
+import '../../styles/OpportunityDetails.css';
 
 const OpportunityDetails = ({ opportunity, onClose }) => {
   return (
