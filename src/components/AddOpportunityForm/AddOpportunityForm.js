@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, Button, Grid } from '@mui/material';
-import './AddOpportunityForm.css';
+import '../../styles/AddOpportunityForm.css';
 
 const AddOpportunityForm = ({ open, onClose, onSubmit }) => {
   const [formData, setFormData] = useState({
