@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #FFF9F0; /* Soft peach background */
+  background-color: #FFF9F0; 
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,15 +18,13 @@ body {
   }
 }
 
-/* Header styles */
 .MuiTypography-h1 {
   font-weight: 700;
   margin-bottom: 24px;
-  color: #FF6B81; /* Coral */
+  color: #FF6B81;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
 
-/* Button styles */
 .MuiButton-contained {
   background: linear-gradient(45deg, #FF6B81 0%, #FF8C00 100%);
   color: white;
