@@ -1,34 +1,39 @@
 .add-opportunity-form .MuiDialog-paper {
-    padding: 16px;
-    border-radius: 8px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #FFF9F0;
 }
 
 .add-opportunity-form .MuiDialogTitle-root {
-    padding: 16px 24px;
-    font-weight: 600;
-    border-bottom: 1px solid #eee;
+  padding: 16px 24px;
+  font-weight: 700;
+  color: #FF6B81;
+  border-bottom: 2px solid rgba(255, 107, 129, 0.2);
 }
 
 .add-opportunity-form .MuiDialogContent-root {
-    padding: 16px 24px;
+  padding: 16px 24px;
 }
 
 .add-opportunity-form .MuiDialogActions-root {
-    padding: 16px 24px;
-    border-top: 1px solid #eee;
+  padding: 16px 24px;
+  border-top: 2px solid rgba(255, 107, 129, 0.2);
 }
 
 .add-opportunity-form .MuiTextField-root {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.add-opportunity-form .MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 12px;
+  background: white;
 }
 
 .add-opportunity-form .MuiButton-contained {
-    text-transform: none;
-    font-weight: 500;
-    padding: 8px 24px;
+  background: linear-gradient(45deg, #FF6B81 0%, #FF8C00 100%);
 }
 
 .add-opportunity-form .MuiButton-outlined {
-    text-transform: none;
-    margin-right: 8px;
+  border-color: #FF6B81;
+  color: #FF6B81;
 }
