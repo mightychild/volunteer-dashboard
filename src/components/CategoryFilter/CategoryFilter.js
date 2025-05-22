@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
-import './CategoryFilter.css';
+import '../../styles/CategoryFilter.css';
 
 const CategoryFilter = ({ selectedCategory, setSelectedCategory, opportunities }) => {
   const categories = ['All', ...new Set(opportunities.map(opp => opp.category))];
