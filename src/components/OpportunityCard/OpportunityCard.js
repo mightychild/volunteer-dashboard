@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, Typography, Button, Chip } from '@mui/material';
-import './OpportunityCard.css';
+import '../../styles/OpportunityCard.css';
 
 const OpportunityCard = ({ opportunity, onClick }) => {
   return (
