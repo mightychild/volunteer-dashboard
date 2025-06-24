@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { Box, Container, Typography, Button, CircularProgress, Grid } from '@mui/material';
 import OpportunityCard from './components/OpportunityCard/OpportunityCard';
 import SearchBar from './components/SearchBar/SearchBar';
